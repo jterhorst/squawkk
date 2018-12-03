@@ -15,6 +15,7 @@
 		0ADC35DA21B58B640048D312 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC35D921B58B640048D312 /* main.m */; };
 		0ADC35E421B58B640048D312 /* SquawkkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC35E321B58B640048D312 /* SquawkkTests.m */; };
 		0ADC35EF21B58B640048D312 /* SquawkkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ADC35EE21B58B640048D312 /* SquawkkUITests.m */; };
+		0ADC35FD21B58C190048D312 /* giphy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0ADC35FC21B58C190048D312 /* giphy.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0ADC35EA21B58B640048D312 /* SquawkkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquawkkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ADC35EE21B58B640048D312 /* SquawkkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SquawkkUITests.m; sourceTree = "<group>"; };
 		0ADC35F021B58B640048D312 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ADC35FC21B58C190048D312 /* giphy.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giphy.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				0ADC35CB21B58B630048D312 /* AppDelegate.m */,
 				0ADC35CD21B58B630048D312 /* ViewController.h */,
 				0ADC35CE21B58B630048D312 /* ViewController.m */,
+				0ADC35FC21B58C190048D312 /* giphy.mp4 */,
 				0ADC35D021B58B630048D312 /* Main.storyboard */,
 				0ADC35D321B58B640048D312 /* Assets.xcassets */,
 				0ADC35D521B58B640048D312 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ADC35D721B58B640048D312 /* LaunchScreen.storyboard in Resources */,
+				0ADC35FD21B58C190048D312 /* giphy.mp4 in Resources */,
 				0ADC35D421B58B640048D312 /* Assets.xcassets in Resources */,
 				0ADC35D221B58B630048D312 /* Main.storyboard in Resources */,
 			);
@@ -438,6 +442,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88G66A5273;
 				INFOPLIST_FILE = Squawkk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +460,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 88G66A5273;
 				INFOPLIST_FILE = Squawkk/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
